@@ -3,11 +3,15 @@ Coming Soon
 
 ![](https://github.com/spooketti/Christmas-Tree-Hat-Saga/blob/main/2026/teaser.gif)
 
+# Description
+
+This is an annual tradition of mine since 2024, where every year I take a hat that resembles a Christmas tree and then attach an Arduino to it. The point is not to make a prototype of a product but rather to have fun and build something. This repo acts as a "lab doc" of every design for the years to come, with this doc now being written in 2026. 
+
 # Archive
 # 2025
-This year had new iterations to the more "structural" aspects of the design. To begin, the laptop has now been replaced with a portable battery, which improved on the clunky nature of the laptop. With the help of my AP Gov teacher (shout-out to Mrs. Smith), the issue of the hat toppling over was solved by placing a rod, such as a chopstick, to keep it upright; not to mention the battery usually being stuffed in as well. The breadboard was now vertically strapped onto the hat with rubber bands, and overall was a consistent system.
+This year had new iterations to the more "structural" aspects of the design. To begin, the laptop has now been replaced with a portable battery, which improved on the clunky nature of the laptop. With the help of my AP Gov teacher (shout-out to Mrs. Smith), the issue of the hat toppling over was solved by placing a rod, such as a chopstick, to keep it upright; not to mention the battery usually being stuffed in as well. The breadboard was now vertically strapped onto the hat with rubber bands, and overall it was a consistent system.
 
-In terms of reflection, a key design flaw was still the LEDs in themselves. The only way to connect them was one wire per LED (common ground). The only alternative is n LEDs per wire if they are all attached to the same data pin. Furthermore, the only way to have the "Christmas light" wire look was if the LEDs were freely hanging, which was vulnerable to damage, and the alternative (breadboard) is not an ideal visual look. 
+In terms of reflection, a key design flaw was still the LEDs in themselves. The only way to connect them was one wire per LED (common ground). The only alternative is N LEDs per wire if they are all attached to the same data pin. Furthermore, the only way to have the "Christmas light" wire look was if the LEDs were freely hanging, which was vulnerable to damage, and the alternative (breadboard) is not an ideal visual look. 
 
 The design often required pit-stops in about 30-2 hour intervals due to some sort of failure (no redundancy or wires falling out)
 The next design is to ideally have a clean look (fewer fasteners, but having them isn't inherently bad), and as few wires as possible to reduce system failure.
