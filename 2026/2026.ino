@@ -22,18 +22,22 @@ void setup() {
 }
 
 void loop() {
-  if(millis() - lastUpdate > iterDelayMS) {
-    update();
+  unsigned long elapsed = millis();
+  if(elapsed - lastUpdate > iterDelayMS) {
+    update(elapsed);
   }
 }
 
-void update(){
+void update(unsigned long elapsed){
   switch(pattern){
     case FADE:
       fade(255,213,97);
     break;
+    default:
+      pattern = FADE;
+    break;
   }
-  lastUpdate = millis();
+  lastUpdate = elapsed;
 }
 
 void twinkle(){
