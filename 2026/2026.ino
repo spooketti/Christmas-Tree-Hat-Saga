@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
-#define Control   7 // pin connected to the small NeoPixels strip
-#define PixelCount      144 // number of LEDs on strip
+#define Control 7 
+#define PixelCount 144 
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PixelCount, Control, NEO_GRB + NEO_KHZ800);
 
@@ -12,6 +12,8 @@ enum Pattern {
 
 int pattern = FADE;
 int step = 0;
+const unsigned long iterDelayMS=20;
+unsigned long lastUpdate=0;
 
 void setup() {
   strip.begin();
@@ -20,11 +22,18 @@ void setup() {
 }
 
 void loop() {
+  if(millis() - lastUpdate > iterDelayMS) {
+    update();
+  }
+}
+
+void update(){
   switch(pattern){
     case FADE:
       fade(255,213,97);
     break;
   }
+  lastUpdate = millis();
 }
 
 void twinkle(){
