@@ -7,6 +7,9 @@ Coming Soon
 # 2025
 <img width="150"  alt="image" src="https://github.com/user-attachments/assets/7a9b9818-932d-4533-85e8-5205d8bc46e0" />
 
+![](https://github.com/spooketti/Christmas-Tree-Hat-Saga/blob/main/2025/mirror2025.gif)
+
 # 2024
 <img width="150" alt="image" src="https://github.com/user-attachments/assets/89f81c70-a802-4bbd-98dd-f1fab048ad31" />
 
+![](https://github.com/spooketti/Christmas-Tree-Hat-Saga/blob/main/2024/mirror2024.gif)
